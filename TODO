@@ -1,0 +1,5 @@
+* Add upstart script
+* Add systemd script
+* Add makefile
+* * Install python2, python-pygame
+* README
