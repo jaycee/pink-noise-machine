@@ -1,12 +1,4 @@
-#!/usr/bin/env python2
-import pygame
-import sys
-
-pygame.init()
-pygame.mixer.init()
-song = pygame.mixer.Sound('pinknoise.mp3')
-clock = pygame.time.Clock()
-while True:
-    song.play()
-    clock.tick(60)
-pygame.quit()
+#!/bin/bash
+while true ; do
+ aplay pinknoise.mp3
+done
