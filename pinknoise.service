@@ -1,0 +1,10 @@
+[Unit]
+Description=pinknoise
+After=sound.target
+
+[Service]
+User=pinknoise
+ExecStart=/usr/bin/pinknoise
+
+[Install]
+WantedBy=multi-user.target

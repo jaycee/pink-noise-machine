@@ -1,5 +1,5 @@
-* Add upstart script
-* Add systemd script
-* Add makefile
-* * Install python2, python-pygame
 * README
+* Install target
+** Create pinknoise user
+** Install sysdeps
+** Install pinknoise to /usr/bin
